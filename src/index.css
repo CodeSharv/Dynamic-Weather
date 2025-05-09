@@ -1,0 +1,49 @@
+/* index.css */
+
+/* CSS Reset */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Global Font and Background */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f3f4f6;
+  color: #333;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Smooth transitions for all */
+button,
+input {
+  transition: all 0.3s ease;
+}
+
+/* Removing default button and input styles */
+button {
+  border: none;
+  outline: none;
+  background: none;
+}
+
+input {
+  border: none;
+  outline: none;
+}
+
+/* Links */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Smooth scroll */
+html {
+  scroll-behavior: smooth;
+}
